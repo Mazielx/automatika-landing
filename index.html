@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Automatika — plantillas y herramientas para automatizar trabajo</title>
+<meta name="description" content="Plantillas n8n, documentos para freelancers y herramientas de automatización. Mexicanas, probadas y con soporte en español.">
+<style>
+  :root { --bg:#0b0f0c; --fg:#c8f7dc; --accent:#06C46F; --muted:#6b8f7d }
+  * { box-sizing: border-box; margin:0; padding:0 }
+  body { font-family: system-ui,-apple-system,"Segoe UI",sans-serif; background:var(--bg); color:var(--fg);
+         display:grid; place-items:center; min-height:100vh; line-height:1.6; padding:2rem }
+  .c { max-width:680px; text-align:center }
+  h1 { color:var(--accent); font-size:clamp(2rem,6vw,3rem); margin-bottom:.5rem; letter-spacing:-.02em }
+  .sub { color:var(--muted); font-size:1.05rem; margin-bottom:2.5rem }
+  .tags { display:flex; gap:.5rem; justify-content:center; flex-wrap:wrap; margin-bottom:2.5rem }
+  .tag { border:1px solid #1e3a2a; border-radius:999px; padding:.35rem .9rem; font-size:.85rem; color:var(--muted) }
+  .items { text-align:left; display:grid; gap:1rem; margin-bottom:2.5rem }
+  .item { border:1px solid #16281e; border-radius:10px; padding:1rem 1.25rem; background:#0e1512 }
+  .item h2 { font-size:1rem; color:var(--accent); margin-bottom:.25rem }
+  .item p { color:var(--muted); font-size:.9rem }
+  footer { color:#3d5a4b; font-size:.8rem; border-top:1px solid #16281e; padding-top:1.5rem }
+  a { color:var(--accent) }
+</style>
+</head>
+<body>
+<div class="c">
+  <h1>Automatika</h1>
+  <p class="sub">Plantillas y herramientas para automatizar trabajo.<br>Mexicanas, probadas y con soporte en español.</p>
+
+  <div class="tags">
+    <span class="tag">n8n</span><span class="tag">Etsy</span><span class="tag">itch.io</span><span class="tag">Stripe</span>
+  </div>
+
+  <div class="items">
+    <div class="item">
+      <h2>n8n JSON Guard</h2>
+      <p>Convierte la respuesta de un LLM en JSON válido. Con 27 casos probados.</p>
+    </div>
+    <div class="item">
+      <h2>n8n Idempotency Guard</h2>
+      <p>Evita que un webhook procese el mismo pago dos veces.</p>
+    </div>
+    <div class="item">
+      <h2>Kit de documentos para freelancers</h2>
+      <p>Presupuesto, contrato y factura CFDI con datos del SAT prellenados.</p>
+    </div>
+  </div>
+
+  <footer>
+    Ventas procesadas por <a href="https://www.lemonsqueezy.com" rel="noopener">Lemon Squeezy</a> ·payments &amp; fiscalidad
+  </footer>
+</div>
+</body>
+</html>
